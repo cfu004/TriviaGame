@@ -14,6 +14,8 @@ var answers = ["Hypertext Transfer Protocol Secured","Elon Mask", "Momentum", "2
 $(document).ready(function(){
 
 
+var audio = new Audio('MI.mp3');
+
 function restart(){
   location.reload();
 }
@@ -122,6 +124,7 @@ function displayScore() {
 
 function start(){
 
+  audio.play();
   $("#submitButton").show();
   $(".quizContent").show();
   $("#startButton").hide();
