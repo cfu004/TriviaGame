@@ -102,7 +102,7 @@ function displayScore() {
 
     $("#correctScore").html("Correct Answers: "+ correctScore);
     console.log(correctScore);
-        if (correctScore == 5){
+        if (correctScore >= 4){
           $("#smartAss").html("IQ is over 9000! Smart ass!  ");
           $("#smartAss").append("<img src='assets/images/smartass.jpg'>");
         }
