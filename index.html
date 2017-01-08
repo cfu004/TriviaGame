@@ -1,92 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Pop Quiz</title>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Pop Quiz</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Berkshire+Swash">
 </head>
-<body>
-<script type="text/javascript"></script>
-
 
 <body>
-    <div id="topic">
-        Pop Quiz!
-    </div>
-    <div id="des">(Are you a smart ass? Or a bad ass?)</div>
-    <div class="quizContent">
-        <div class="col-sm-12" id="timer">
-            Time Left: 30 seconds
-        </div><br>
-        <div class = col-sm-12 id="question1">
-            <form>
-                1.What is the full form of HTTPS?<br>
-                <input type="radio" name="q" value="Hypertext Transfer Protocol Secured"> Hypertext Transfer Protocol Secured <br>
-                <input type="radio" name="q" value="Hypertext Transfer Protocol"> Hypertext Transfer Protocol
-            </form>
-        </div><br>
-        <div class = "col-sm-12" id="question2">
-            <form>
-                2.Who is the founder of SpaceX?<br>
-                <input type="radio" name="q" value="Elon Musk"> Elon Musk<br>
-                <input type="radio" name="q" value="Steve Jobs"> Steve Jobs
-            </form>
-        </div><br>
-        <div class = "col-sm-12" id="question3">
-            <form>
-                3.Which one of the following is not a form of energy?<br>
-                <input type="radio" name="q" value="Momentum"> Momentum<br>
-                <input type="radio" name="q" value="Heat"> Heat
-            </form>
-        </div><br>
-        <div class = "col-sm-12" id="question4">
-            <form>
-                4.What's the derivative of x to the power of 2?<br>
-                <input type="radio" name="q" value="2*X"> 2*X<br>
-                <input type="radio" name="q" value="2+X"> 2+X
-            </form>
-        </div><br>
-        <div class = "col-sm-12" id="question5">
-            <form>
-                5.Why is the sky blue?<br>
-                <input type="radio" name="q" value="Reflection of light"> Reflection of light<br>
-                <input type="radio" name="q" value="Refraction of light"> Refraction of light
-            </form>
-        </div><br>
-    
-    </div>
-
-    <div class = "col-sm-12" id="start_Button">
-    <button id="startButton">Start</button>
-    </div>
-    <div class = "col-sm-12" id="submit_Button">
-    <button id="submitButton">Submit</button>
-    </div>
-    <div class = "col-sm-12" id="correctScore">
-    </div>
-    <div class = "col-sm-12" id="wrongScore">
-    </div>
-    <div class = "col-sm-12" id="unanswered">
-    </div>
-    <div class = "col-sm-12" id="smartAss">
-    <!-- <img src="assets/images/smartass.jpg" > -->
-    </div>
-    <div class = "col-sm-12" id="badAss">
-    <!-- <img src="assets/images/badass.jpg"> -->
-    </div>
-
-    <div class = "col-sm-12" id="restart_Button">
-    <button id="restartButton">Restart</button>
-    </div>
-
-    <div class = "col-sm-12" id="footer">
-
-    </div>
+    <script type="text/javascript"></script>
 
 
+    <body>
+        <div id="topic">
+            Pop Quiz!
+        </div>
+        <div id="des">(Are you a smart ass? Or a bad ass?)</div>
+        <div class="quizContent">
+            <div class="col-sm-12" id="timer">
+                Time Left: 30 seconds
+            </div><br>
+            <div class=c ol-sm-12 id="question1">
+                <form>
+                    1.What is the full form of HTTPS?<br>
+                    <input type="radio" name="q" value="Hypertext Transfer Protocol Secured"> Hypertext Transfer Protocol Secured <br>
+                    <input type="radio" name="q" value="Hypertext Transfer Protocol"> Hypertext Transfer Protocol
+                </form>
+            </div><br>
+            <div class="col-sm-12" id="question2">
+                <form>
+                    2.Who is the founder of SpaceX?<br>
+                    <input type="radio" name="q" value="Elon Musk"> Elon Musk<br>
+                    <input type="radio" name="q" value="Steve Jobs"> Steve Jobs
+                </form>
+            </div><br>
+            <div class="col-sm-12" id="question3">
+                <form>
+                    3.Which one of the following is not a form of energy?<br>
+                    <input type="radio" name="q" value="Momentum"> Momentum<br>
+                    <input type="radio" name="q" value="Heat"> Heat
+                </form>
+            </div><br>
+            <div class="col-sm-12" id="question4">
+                <form>
+                    4.What's the derivative of x to the power of 2?<br>
+                    <input type="radio" name="q" value="2*X"> 2*X<br>
+                    <input type="radio" name="q" value="2+X"> 2+X
+                </form>
+            </div><br>
+            <div class="col-sm-12" id="question5">
+                <form>
+                    5.Why is the sky blue?<br>
+                    <input type="radio" name="q" value="Reflection of light"> Reflection of light<br>
+                    <input type="radio" name="q" value="Refraction of light"> Refraction of light
+                </form>
+            </div><br>
 
-</body>
+        </div>
+
+        <div class="col-sm-12" id="start_Button">
+            <button id="startButton">Start</button>
+        </div>
+        <div class="col-sm-12" id="submit_Button">
+            <button id="submitButton">Submit</button>
+        </div>
+        <div class="col-sm-12" id="correctScore">
+        </div>
+        <div class="col-sm-12" id="wrongScore">
+        </div>
+        <div class="col-sm-12" id="unanswered">
+        </div>
+        <div class="col-sm-12" id="smartAss">
+            <!-- <img src="assets/images/smartass.jpg" > -->
+        </div>
+        <div class="col-sm-12" id="badAss">
+            <!-- <img src="assets/images/badass.jpg"> -->
+        </div>
+
+        <div class="col-sm-12" id="restart_Button">
+            <button id="restartButton">Restart</button>
+        </div>
+
+        <div class="col-sm-12" id="footer">
+
+        </div>
+
+
+
+    </body>
+
 </html>
